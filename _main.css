@@ -1,0 +1,17 @@
+header{
+    margin-bottom: 50px;   
+}
+
+.comment-num{
+    float: right;  
+}
+
+.clearfix{
+    padding-bottom: 20px;
+    border-bottom: 3px solid #CCC;
+    margin-bottom: 20px;
+}
+
+.content .last{
+    border-bottom: none;   
+}

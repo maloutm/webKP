@@ -1,0 +1,13 @@
+@font-face {
+	font-family: "Arimo-Bold";
+	src: url("fonts/Arimo/Arimo-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Arimo-Regular";
+	src: url("fonts/Arimo/Arimo-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
