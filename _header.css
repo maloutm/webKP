@@ -1,3 +1,17 @@
+body::after{
+    background-image: url("img/image_blog.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    display: block;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+
 body {
 	font-family: sans-serif;
 	font-size: 16px;
