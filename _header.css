@@ -56,6 +56,9 @@ body {
 	background-color: rgba(0,0,0,0.8);
 	background-image: none;
 }
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+    color: #83B975;
+}
 .header-main {
 	min-height: 250px;
 	background: url(img/slide1.jpg) no-repeat;
@@ -196,4 +199,50 @@ button.btn-menu{
     margin-top: 15px;
     float: right;
     border: none;
+}
+
+.search-header{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #83B975;
+}
+
+.right-block{
+    margin-bottom: 30px;
+    border-bottom: 2px solid #CCC;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tag-cloud .tags p{
+    text-align: center;
+}
+a{
+    color: #83B975;
+}
+
+.right-block .btn-default{
+    background-color: #83B975;
+}
+
+.right-block .btn-default:hover, .right-block .btn-default:active{
+    background-color: #679E42    
+}
+.right-block .form-control{
+    border: 1px solid #83B975;    
+}
+ .random h4.text-center a{
+    color: #000;
+}
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #e0e0e0;
+    font-size: 1.1em;
+    min-height: 65px;
+    padding: 20px;
+}
+footer .copyright{
+    width: 150px;
+    margin: 0 auto;
 }
