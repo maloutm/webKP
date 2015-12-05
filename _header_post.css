@@ -219,7 +219,7 @@ button.btn-menu{
     text-align: center;
 }
 a{
-    color: #83B975;
+    color: #80b959;
 }
 
 .right-block .btn-default{
@@ -227,7 +227,7 @@ a{
 }
 
 .right-block .btn-default:hover, .right-block .btn-default:active{
-    background-color: #679E42    
+    background-color: #679E42;   
 }
 .right-block .form-control{
     border: 1px solid #83B975;    
@@ -246,6 +246,137 @@ footer .copyright{
     width: 150px;
     margin: 0 auto;
 }
-.content ol.breadcrumb{
-    background-color: none;
+.content-top{
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 20px;
+}
+
+.content-top ol.breadcrumb{
+    font-weight: bold;
+    background-color: #FFF;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.header-main{
+    margin-bottom: 15px;
+}
+.content .post-date {
+    color: #9f9f9f;
+    font-family: arial,sans-serif;
+    font-size: 0.75rem;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.content .post-date span {
+    float: right;
+}
+.content h2 {
+    font-size: 1.625rem;
+}
+.content h2, .content h3, .content h4 {
+    margin: 1em 0 0.4em;
+}
+.content h3 {
+    font-size: 2.375rem;
+}
+.content h1, .content h2, .content h3, .content h4 {
+    color: #383838;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+}
+.content .post-intro {
+    font-size: 2rem;
+    margin-bottom: 1.4em;
+    font-style: italic;
+}
+#author::before {
+    background: #fff none repeat scroll 0 0;
+    color: #9f9f9f;
+    content: "Автор";
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    left: 0;
+    padding-right: 1em;
+    position: absolute;
+    text-transform: uppercase;
+    top: -12px;
+}
+#author {
+    border-top: 1px solid #ccc;
+    margin: 2em 0;
+    position: relative;
+    padding-bottom: 50px;
+}
+#author .author-info {
+    padding: 2.7em 0 0 100px;
+}
+#author img {
+    position: absolute;
+    height: 80px;
+    top: 1em;
+    width: 80px;
+    left: 0;
+ }
+#author .author-info h3 {
+    font-size: 1.25rem;
+}
+#author .author-info h3 {
+    color: #383838;
+    font-family: arial,sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+}
+.media h4 span {
+    color: #9f9f9f;
+    float: right;
+    font-size: 1.5rem;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #83B975;
+    border-color: #83B975;
+}
+.pagination > li > a, .pagination > li > span {
+    color: #83B975; 
+}
+.myform textarea.form-control {
+    font-size: 16px;
+    font-weight: 400;
+    height: auto;
+    line-height: 24px;
+    max-width: 100%;
+    min-width: 100%;
+    padding-top: 8px;
+    vertical-align: top;
+}
+.myform .form-control, .input-group .form-control {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #ccc;
+    box-shadow: none;
+    display: inline;
+    font-family: arial,sans-serif;
+    height: 44px;
+    outline: medium none;
+}
+.input-lg, .form-horizontal .form-group-lg .form-control {
+    border-radius: 6px;
+ }
+.form-control {
+    color: #555;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+.btn-primary {
+    background-color: #83B975;
+    border-color:  #679E42; 
+    color: #fff;
+}
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary.focus:active, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus {
+    background-color: #679E42;
+    border-color:  #359E42; 
 }
