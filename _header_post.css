@@ -60,8 +60,9 @@ body {
     color: #83B975;
 }
 .header-main {
-	min-height: 450px;
+	min-height: 250px;
 	background: url(img/slide1.jpg) no-repeat;
+  	background-size: 100% 100%;
   	background-size: cover;
 }
 .blog-container{
@@ -208,7 +209,10 @@ button.btn-menu{
 }
 
 .right-block{
-    margin-bottom: 100px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #CCC;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .tag-cloud .tags p{
@@ -223,7 +227,7 @@ a{
 }
 
 .right-block .btn-default:hover, .right-block .btn-default:active{
-    background-color: #679E42;  
+    background-color: #679E42    
 }
 .right-block .form-control{
     border: 1px solid #83B975;    
@@ -242,50 +246,6 @@ footer .copyright{
     width: 150px;
     margin: 0 auto;
 }
-
-.form-control {
-    color: red;
-}
-a:hover, a:focus {
-    color: #679E42;
-}
-
-.content .post-date {
-    color: #9f9f9f;
-    font-family: arial,sans-serif;
-    font-size: 1.35rem;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-article h2 a {
-    border: 0 none;
-    color: #404046;
-}
-.tags a, article h2 a, .btn, .nav-icon, .nav-brand, .btn-blog, .btn-blog.outline, #menu, #wrap, .menu-open, #menu > ul > li a, #menu .close-menu, .submenu-list {
-    transition: all 0.3s ease 0s;
-}
-.content h2 {
-    font-size: 3rem;
-}.content h2 a:hover{
-    text-decoration: none;
-}
-.post-popular {
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 1.5em 0 0;
-    position: relative;
-}
-.post-popular::before {
-    background: #fff none repeat scroll 0 0;
-    color: #9f9f9f;
-    content: "Популярные посты";
-    display: inline-block;
-    font-family: arial,sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-    left: 0;
-    padding-right: 1em;
-    position: absolute;
-    text-transform: uppercase;
-    top: -12px;
+.content ol.breadcrumb{
+    background-color: none;
 }
