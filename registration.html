@@ -16,8 +16,7 @@
 	<!-- Header CSS (First Sections of Website: compress & paste after release from _header.css here) -->
 	<style></style>
 	<!-- Bootstrap skin css	-->
-	<style>body{color:#242424;font-size:13px}h1,.h1{font-size:35px}h2,.h2{font-size:30px}h3,.h3{font-size:18px}h4,.h4{font-size:15px}h5,.h5{font-size:12px}h6,.h6{font-size:10px}.lead{font-size:19px}.carousel .item{min-height:500px;background-color:#C5C5C5}.navbar-inverse{background-color:#242424}.navbar-inverse,.navbar-default{border:none}.navbar-inverse .navbar-nav > .active > a,.navbar-inverse .navbar-nav > .active > a:hover,.navbar-inverse .navbar-nav > .active > a:focus{background-image:-moz-linear-gradient(bottom,#F4893B 0%,#EF5F31 100%);background-image:-o-linear-gradient(bottom,#F4893B 0%,#EF5F31 100%);background-image:-webkit-linear-gradient(bottom,#F4893B 0%,#EF5F31 100%);background-image:linear-gradient(to top,#F4893B 0%,#EF5F31 100%)}.navbar{border-radius:0;font-size:14px}.navbar-inverse .navbar-nav > li > a{color:#fff}.navbar-inverse .navbar-nav > .open > a,.navbar-inverse .navbar-nav > .open > a:hover,.navbar-inverse .navbar-nav > .open > a:focus{color:#f27837;background-color:transparent}.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus{background-color:#F17135;background-image:-moz-linear-gradient(bottom,#F4853A 0%,#EF6232 100%);background-image:-o-linear-gradient(bottom,#F4853A 0%,#EF6232 100%);background-image:-webkit-linear-gradient(bottom,#F4853A 0%,#EF6232 100%);background-image:linear-gradient(to top,#F4853A 0%,#EF6232 100%);color:#fff}.navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > li > a:focus{color:#f27837}.dropdown-menu .divider{margin:2px 0}.nav > li > a{padding:15px 18px}.carousel-control .glyphicon-chevron-left,.carousel-control .glyphicon-chevron-right,.carousel-control .icon-prev,.carousel-control .icon-next{font-size:14px;color:#fff}.btn-info{background:transparent;color:#FFF;border:1px solid #FFF}.btn-info:hover{background:#FFF;color:#000;border:1px solid #FFF}</style>
-
+	
 	<!-- Fonts Loader from _fonts.css (HTML5 LocalStorage) -->
 	<script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="_fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
 	
@@ -31,7 +30,7 @@
 	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
-    <link rel="stylesheet" href="_header_index.css">
+    <link rel="stylesheet" href="_header_reg.css">
 </head>
 
 <body>
@@ -41,101 +40,29 @@
         <div class="logo">
             <a href="index.html" class="main-logo btn">Лого</a>
         </div>
-	    <div class="right-menu">
-	        <!-- правое меню списком -->
-	    </div>
-	    <nav class="main-nav">
-	        <div class="container">
-	            <button type="button" class="btn btn-info btn-menu" aria-label="Left Align">
-                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
-                </button>
-	            <a href="auth.html" class="btn btn-info btn-right">Вход</a>
-	        </div>
-	    </nav>
+	    
     </header>
-      <div class="page">       
-        <section id="home-launch">
-            <div class="home-launch-main">
-                <h1>Создайте новый блог бесплатно</h1>
-                <h2>
-                    "site_name.ru" - лучшее место 
-                    <br/>
-                    для личного блога.
-                </h2>
-                <div class="create-button">
-                    <a href="auth.html" class="button">Создать блог</a>
-                </div>
+    <div class="wrap">
+        <div class="container">
+            <div class="row">
+            <form>
+              <label>
+                <input type="text" required />
+                <div class="label-text">Email</div>
+              </label>
+              <label>
+                <input type="text" required />
+                <div class="label-text">Логин</div>
+              </label>
+              <label>
+                <input type="password" required />
+                <div class="label-text">Пароль</div>
+              </label>
+              <button>Регистрация</button>
+            </form>
             </div>
-            <div class="home-launch-footer">
-               <ul class="features-list">
-                   <li class="wpcom-features-dtl">
-                        <a class="feature-link" href="#">
-                            <span class="noticon noticon-tablet"></span>
-                            <h3>Адаптивный и красивый дизайн</h3>
-                        </a>
-                    </li>
-                    <li class="wpcom-features-dtl">
-                        <a class="feature-link" href="#">
-                            <span class="noticon noticon-tablet"></span>
-                            <h3>Будь в центре мировых событий</h3>
-                        </a>
-                    </li>
-               </ul>
-            </div>
-            <div class="more">
-                <a id="more-features-toggle" href="#more-features">
-                    <h3>Нужны другие причины?</h3>
-                </a>
-            </div>
-        </section>
-        <section id="more-features">
-            <div class="more-features-header">
-               <h2>"site_name.ru - лучший выбор для создания бесплатного блога</h2>
-            </div>
-            <div class="bf-wrapper">
-                <ul id="wpcom-features" class="wpcom-features-blw">
-                    <li class="wpcom-features-dtl">
-                        <span class="noticon noticon-lightbulb"></span>
-                        <h3>Простота использования</h3>
-                        <p>Можно легко создавать красивые и функциональные блоги.</p>
-                    </li>
-                    <li class="wpcom-features-dtl">
-                        <span class="noticon noticon-lightbulb domain"></span>
-                        <h3>Личное доменное имя</h3>
-                        <p>Мы создадим и настроим ваш пользовательский домен за секунды, чтобы вы могли сразу начать его использовать.</p>
-                    </li>
-                    <li class="wpcom-features-dtl">
-                        <span class="noticon noticon-code"></span>
-                        <h3>Оптимизация поиска</h3>
-                        <p>Ваш блог оптимизирован для поисковых систем, что позволит попасть в первые строки результатов поиска Google, Yandex, Yahoo и других.</p>
-                    </li>
-                </ul>
-                <ul class="wpcom-features-blw last">
-                    <li class="wpcom-features-dtl">
-                        <span class="noticon noticon-chat"></span>
-                        <h3>Лучшая поддержка</h3>
-                        <p>Наши инженеры счастья работают день и ночь, отвечая на ваши вопросы в онлайн-чате, через электронную почту, на страницах поддержки и форумах.</p>
-                    </li>
-                    <li class="wpcom-features-dtl">
-                        <span class="noticon noticon-gift"></span>
-                        <h3>Премиум-планы</h3>
-                        <p>Премиум-планы дают больше возможностей для управления и настройки. Но сначала все можно попробовать бесплатно.</p>
-                    </li>
-                    <li class="wpcom-features-dtl">
-                        <span class="noticon noticon-website"></span>
-                        <h3>Миллионы пользователей</h3>
-                        <p>Каждый день на нашей платформе появляется 50 000 новых сайтов: от страниц малых предприятий, творческих портфолио и блогов до сайтов TIME, CNN и других крупных медийных компаний.</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
+        </div>
     </div>
-    <footer>
-        <div class="copyright">
-            "site_name.ru"©2015
-        </div> 
-    </footer>
-    
     
 	<div class="hidden"></div>
 
@@ -154,7 +81,7 @@
 
 	//Header Styles (compress & paste to header after release)
 	var ms=document.createElement("link");ms.rel="stylesheet";
-	ms.href="_header_index.css";document.getElementsByTagName("head")[0].appendChild(ms);
+	ms.href="_header_reg.css";document.getElementsByTagName("head")[0].appendChild(ms);
 	
 	//User Styles
 	var ms=document.createElement("link");ms.rel="stylesheet";

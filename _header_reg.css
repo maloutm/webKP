@@ -1,0 +1,131 @@
+body, div, span, h1, h2, h3, p, a, em, ol, ul, li, footer, header, menu, nav, section{
+    padding: 0;
+    margin: 0;
+    text-rendering: optimizelegibility;
+    vertical-align: baseline;
+}
+footer, header, nav, section {
+    display: block;
+}
+html{
+    font-size: 62.5%;
+    height: 100%;
+    min-height: 100%;
+    overflow-y: auto;
+}
+.hidden {
+	display: none;
+}
+header{
+    background: #0087BE none repeat scroll 0 0;
+    border-bottom: 1px solid #2087BE;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    height: 4.5rem;
+    margin-bottom: 3.6rem;
+    width: 100%;
+}
+header .logo{
+    float: left;
+    width: 100px;
+    height: 100%;
+    background: rgba(0,0,0,0.2);
+}
+
+body {
+  background-color: #F3F6F8;
+  font-family: "Open Sans", Helvetica;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  display: block;
+  letter-spacing: 4px;
+  padding-top: 30px;
+  text-align: center;
+}
+label .label-text {
+  color: #0087BE;
+  cursor: text;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  -moz-transform: translateY(-34px);
+  -ms-transform: translateY(-34px);
+  -webkit-transform: translateY(-34px);
+  transform: translateY(-34px);
+  transition: all 0.3s;
+}
+label input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #0087BE;
+  color: #333;
+  font-size: 36px;
+  letter-spacing: -1px;
+  outline: 0;
+  padding: 5px 20px;
+  text-align: center;
+  transition: all 0.3s;
+  width: 200px;
+}
+label input:focus {
+  max-width: 100%;
+  width: 400px;
+}
+label input:focus + .label-text {
+  color: #2287BE;
+  font-size: 13px;
+  -moz-transform: translateY(-74px);
+  -ms-transform: translateY(-74px);
+  -webkit-transform: translateY(-74px);
+  transform: translateY(-74px);
+}
+label input:valid + .label-text {
+  font-size: 13px;
+  -moz-transform: translateY(-74px);
+  -ms-transform: translateY(-74px);
+  -webkit-transform: translateY(-74px);
+  transform: translateY(-74px);
+}
+
+button {
+  font-weight: bold;
+  border: 2px solid #11ABDF;
+  background-color: #11ABDF;
+  border-radius: 27px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  transition: all 200ms;
+}
+button:hover, button:focus {
+    border: 2px solid #0087BE;
+    background-color: #0087BE;
+}
+form+div{
+    
+    margin: 0 auto;
+    width: 200px;
+}
+form+div p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+form+div p:first-child{
+    padding-top: 30px;
+}
+form+div a{
+    color: #ccc;
+}
+form+div a:hover, form+div a:focus{
+    text-decoration: none;
+    color: #11ABDF;
+}
