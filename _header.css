@@ -1,0 +1,7 @@
+.user a{
+    display: inline-block;
+}
+.user a:last-child{
+    font-weight: 700;
+    margin-right: 15px;
+}
