@@ -293,3 +293,42 @@ article h2 a {
 form#mycomment{
     margin-bottom: 50px;
 }
+
+.profile-header{
+    color: #333;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.button-primary,.button-secondary {
+    background-color: #11abdf;
+    border-radius: 5%;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    width: 150px;
+}
+textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], select {
+    border-style: solid;
+    border-width: 1px;
+}
+.button-primary:hover,.button-secondary:hover {
+    background-color: #0087be;
+}
+.button-primary {
+    margin-right: 30px;
+}
+table.table{
+    margin-top: 30px;
+    width: 95%;
+    border: 1px solid #CCC;
+    background-color: #FFF;
+}
+table.table th{
+    background: #dfdfdf;
+}
+table.table .post-title{
+    font-weight: bold;
+}
+.post-buttons{
+    width: 95%;
+}
